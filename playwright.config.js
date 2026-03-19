@@ -18,19 +18,15 @@ module.exports = defineConfig({
     ['json', { outputFile: 'reports/results.json' }],
   ],
 
-  use: {
-    headless: false,
-    // Launch browser maximized / full screen
-    launchOptions: {
-      args: ['--start-maximized'],
-    },
-    viewport: null,           // null = use the actual maximized window size
-    actionTimeout: 15000,
-    navigationTimeout: 30000,
-    screenshot: 'only-on-failure',
-    video: 'retain-on-failure',
-    trace: 'retain-on-failure',
-  },
+ use: {
+  headless: true,
+  viewport: { width: 1280, height: 720 },  // fixed size for CI
+  actionTimeout: 15000,
+  navigationTimeout: 30000,
+  screenshot: 'only-on-failure',
+  video: 'retain-on-failure',
+  trace: 'retain-on-failure',
+},
 
   projects: [
     {
