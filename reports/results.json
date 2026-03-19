@@ -1,0 +1,477 @@
+{
+  "config": {
+    "configFile": "D:\\Course-Video-Accessibility\\playwright.config.js",
+    "rootDir": "D:/Course-Video-Accessibility/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "D:/Course-Video-Accessibility/screenshots",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "D:/Course-Video-Accessibility/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "html",
+        {
+          "outputFolder": "reports/html",
+          "open": "never"
+        }
+      ],
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "reports/results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "runAgents": "none",
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.58.2",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "aicerts.spec.js",
+      "file": "aicerts.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "AI Certs Learner Platform",
+          "file": "aicerts.spec.js",
+          "line": 28,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC-101 | Application launches successfully",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5806,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✅  Launched. Title: \"(set by JS — see screenshot)\"\n"
+                        },
+                        {
+                          "text": "📸  screenshots/TC101_launch_2026-03-19T14-44-35-530Z.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-19T14:44:29.880Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cbd28165acd659b9c144-f1a1d680385570512777",
+              "file": "aicerts.spec.js",
+              "line": 30,
+              "column": 3
+            },
+            {
+              "title": "TC-102 | Login page renders correctly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4987,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✅  Login page renders correctly\n"
+                        },
+                        {
+                          "text": "📸  screenshots/TC102_login_page_2026-03-19T14-44-41-429Z.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-19T14:44:36.892Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cbd28165acd659b9c144-03927c4076ac4ea61f1d",
+              "file": "aicerts.spec.js",
+              "line": 44,
+              "column": 3
+            },
+            {
+              "title": "TC-103 | Login with valid credentials — assert success immediately",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6889,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✅  Login success asserted immediately. URL: https://learn.aicerts.ai/dashboard\n"
+                        },
+                        {
+                          "text": "📸  screenshots/TC103_login_success_2026-03-19T14-44-48-025Z.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-19T14:44:41.907Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cbd28165acd659b9c144-8b6d8c79c7563abe5086",
+              "file": "aicerts.spec.js",
+              "line": 61,
+              "column": 3
+            },
+            {
+              "title": "TC-104 | Invalid credentials show error",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 8706,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✅  Invalid login handled. Error shown: true | On login page: true\n"
+                        },
+                        {
+                          "text": "📸  screenshots/TC104_invalid_login_2026-03-19T14-44-56-722Z.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-19T14:44:48.820Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cbd28165acd659b9c144-16f047a995dea0ebac4a",
+              "file": "aicerts.spec.js",
+              "line": 85,
+              "column": 3
+            },
+            {
+              "title": "TC-105 | Enrolled course is visible after login",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5879,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✅  Found 1 enrolled course(s)\n"
+                        },
+                        {
+                          "text": "📸  screenshots/TC105_courses_visible_2026-03-19T14-45-02-693Z.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-19T14:44:57.544Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cbd28165acd659b9c144-0baf850e737c7cee9cb3",
+              "file": "aicerts.spec.js",
+              "line": 116,
+              "column": 3
+            },
+            {
+              "title": "TC-106 | Open an enrolled course",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 9592,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✅  Course opened. URL: https://learn.aicerts.ai/course-details?courseId=524\n"
+                        },
+                        {
+                          "text": "📸  screenshots/TC106_course_opened_2026-03-19T14-45-12-127Z.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-19T14:45:03.441Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cbd28165acd659b9c144-dcfd36bb326636497ba5",
+              "file": "aicerts.spec.js",
+              "line": 130,
+              "column": 3
+            },
+            {
+              "title": "TC-107 | Navigate to video section inside the course",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 8782,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✅  Video section found\n"
+                        },
+                        {
+                          "text": "📸  screenshots/TC107_video_section_2026-03-19T14-45-21-217Z.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-19T14:45:13.054Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cbd28165acd659b9c144-45720aaae9d6a667ef1f",
+              "file": "aicerts.spec.js",
+              "line": 147,
+              "column": 3
+            },
+            {
+              "title": "TC-108 | All course videos are accessible",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 16542,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Found 1 direct video element(s)\n"
+                        },
+                        {
+                          "text": "\n🎬  Checking Video 1...\n"
+                        },
+                        {
+                          "text": "✅  Video 1: Accessible\n"
+                        },
+                        {
+                          "text": "📸  screenshots/TC108_video_1_ok_2026-03-19T14-45-37-203Z.png\n"
+                        },
+                        {
+                          "text": "\n📊  Results: 1 passed | 0 failed | 1 total\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-19T14:45:21.858Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cbd28165acd659b9c144-31af9c891358513dc08d",
+              "file": "aicerts.spec.js",
+              "line": 175,
+              "column": 3
+            },
+            {
+              "title": "TC-109 | Logout redirects to login page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 15826,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✅  Confirmed logged in\n"
+                        },
+                        {
+                          "text": "✅  Logout success. URL: https://learn.aicerts.ai/\n"
+                        },
+                        {
+                          "text": "📸  screenshots/TC109_logout_success_2026-03-19T14-45-53-531Z.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-19T14:45:38.421Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cbd28165acd659b9c144-59c1e69de490646cc94a",
+              "file": "aicerts.spec.js",
+              "line": 289,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-03-19T14:44:27.767Z",
+    "duration": 87285.86,
+    "expected": 9,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
