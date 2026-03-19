@@ -95,19 +95,19 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 5806,
+                      "duration": 3088,
                       "errors": [],
                       "stdout": [
                         {
                           "text": "✅  Launched. Title: \"(set by JS — see screenshot)\"\n"
                         },
                         {
-                          "text": "📸  screenshots/TC101_launch_2026-03-19T14-44-35-530Z.png\n"
+                          "text": "📸  screenshots/TC101_launch_2026-03-19T18-12-43-605Z.png\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-19T14:44:29.880Z",
+                      "startTime": "2026-03-19T18:12:40.864Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -143,12 +143,12 @@
                           "text": "✅  Login page renders correctly\n"
                         },
                         {
-                          "text": "📸  screenshots/TC102_login_page_2026-03-19T14-44-41-429Z.png\n"
+                          "text": "📸  screenshots/TC102_login_page_2026-03-19T18-12-48-730Z.png\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-19T14:44:36.892Z",
+                      "startTime": "2026-03-19T18:12:44.104Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -177,19 +177,19 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 6889,
+                      "duration": 7035,
                       "errors": [],
                       "stdout": [
                         {
                           "text": "✅  Login success asserted immediately. URL: https://learn.aicerts.ai/dashboard\n"
                         },
                         {
-                          "text": "📸  screenshots/TC103_login_success_2026-03-19T14-44-48-025Z.png\n"
+                          "text": "📸  screenshots/TC103_login_success_2026-03-19T18-12-55-682Z.png\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-19T14:44:41.907Z",
+                      "startTime": "2026-03-19T18:12:49.110Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -218,19 +218,19 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 8706,
+                      "duration": 6795,
                       "errors": [],
                       "stdout": [
                         {
                           "text": "✅  Invalid login handled. Error shown: true | On login page: true\n"
                         },
                         {
-                          "text": "📸  screenshots/TC104_invalid_login_2026-03-19T14-44-56-722Z.png\n"
+                          "text": "📸  screenshots/TC104_invalid_login_2026-03-19T18-13-02-586Z.png\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-19T14:44:48.820Z",
+                      "startTime": "2026-03-19T18:12:56.162Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -259,19 +259,19 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 5879,
+                      "duration": 9555,
                       "errors": [],
                       "stdout": [
                         {
                           "text": "✅  Found 1 enrolled course(s)\n"
                         },
                         {
-                          "text": "📸  screenshots/TC105_courses_visible_2026-03-19T14-45-02-693Z.png\n"
+                          "text": "📸  screenshots/TC105_courses_visible_2026-03-19T18-13-12-051Z.png\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-19T14:44:57.544Z",
+                      "startTime": "2026-03-19T18:13:02.970Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -300,19 +300,19 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 9592,
+                      "duration": 12005,
                       "errors": [],
                       "stdout": [
                         {
                           "text": "✅  Course opened. URL: https://learn.aicerts.ai/course-details?courseId=524\n"
                         },
                         {
-                          "text": "📸  screenshots/TC106_course_opened_2026-03-19T14-45-12-127Z.png\n"
+                          "text": "📸  screenshots/TC106_course_opened_2026-03-19T18-13-24-010Z.png\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-19T14:45:03.441Z",
+                      "startTime": "2026-03-19T18:13:12.539Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -341,19 +341,19 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 8782,
+                      "duration": 10570,
                       "errors": [],
                       "stdout": [
                         {
                           "text": "✅  Video section found\n"
                         },
                         {
-                          "text": "📸  screenshots/TC107_video_section_2026-03-19T14-45-21-217Z.png\n"
+                          "text": "📸  screenshots/TC107_video_section_2026-03-19T18-13-34-538Z.png\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-19T14:45:13.054Z",
+                      "startTime": "2026-03-19T18:13:24.559Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -382,7 +382,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 16542,
+                      "duration": 17685,
                       "errors": [],
                       "stdout": [
                         {
@@ -395,7 +395,7 @@
                           "text": "✅  Video 1: Accessible\n"
                         },
                         {
-                          "text": "📸  screenshots/TC108_video_1_ok_2026-03-19T14-45-37-203Z.png\n"
+                          "text": "📸  screenshots/TC108_video_1_ok_2026-03-19T18-13-52-356Z.png\n"
                         },
                         {
                           "text": "\n📊  Results: 1 passed | 0 failed | 1 total\n"
@@ -403,7 +403,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-19T14:45:21.858Z",
+                      "startTime": "2026-03-19T18:13:35.147Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -432,7 +432,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 15826,
+                      "duration": 12588,
                       "errors": [],
                       "stdout": [
                         {
@@ -442,12 +442,12 @@
                           "text": "✅  Logout success. URL: https://learn.aicerts.ai/\n"
                         },
                         {
-                          "text": "📸  screenshots/TC109_logout_success_2026-03-19T14-45-53-531Z.png\n"
+                          "text": "📸  screenshots/TC109_logout_success_2026-03-19T18-14-04-873Z.png\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-19T14:45:38.421Z",
+                      "startTime": "2026-03-19T18:13:52.848Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -467,8 +467,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-03-19T14:44:27.767Z",
-    "duration": 87285.86,
+    "startTime": "2026-03-19T18:12:39.557Z",
+    "duration": 86108.04299999999,
     "expected": 9,
     "skipped": 0,
     "unexpected": 0,
